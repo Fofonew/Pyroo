@@ -3,8 +3,8 @@
     "images/sound.mp3"
 ],
  "manifest_version": 2,
- "name": "PyrooTv Twitch Extension",
- "description": "Vous informe quand PyrooTv est en live.",
+ "name": "*** Twitch Extension",
+ "description": "Vous informe quand *** est en live.",
  "version": "1.2",
 "browser_action": {
   "default_popup": "index.html"
