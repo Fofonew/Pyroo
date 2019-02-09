@@ -1,0 +1,146 @@
+<head>
+<meta charset="UTF-8">
+</head>
+
+<style>
+  @font-face {
+  	font-family: "Raleway";
+  	src: url("Raleway-Regular.ttf");
+  	font-weight: normal;
+  }
+
+  @font-face {
+  	font-family: "Raleway2";
+  	src: url("Raleway-Bold.ttf");
+  	font-weight: bold;
+  }
+  body{
+    height: 300px;
+    width: 400px;
+  }
+  h1{
+    color: red;
+    text-align: center;
+  }
+  .images_logo{
+    display: inline;
+    height: 64px;
+    width : 64px;
+    align: center;
+    border-radius: 5px;
+  }
+  .images_screen{
+    display: inline;
+    height: 162px;
+    width : 288px;
+    align: center;
+    border-radius: 5px;
+  }
+  p{
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 15px;
+
+  }
+  .images_twitter{
+    margin-left: 85%;
+    float: left;
+    margin-top: -27px;
+  	width:23px;
+  	height:23px;
+  }
+  .images_user{
+    width:25px;
+    height:25px;
+  }
+  .images_heart{
+    width:22px;
+    height:22px;
+    margin-left: 2px;
+  }
+  .images_twitch {
+    margin-left: 92%;
+    float: left;
+    margin-top: -7px;
+  	width:30px;
+  	height:30px;
+  }
+  footer a {
+  	margin-top: -10px;
+  	position: relative;
+  }
+  footer {
+  	position: fixed;
+  	text-align: center;
+  	display: block;
+  	height: 20px;
+  	width: 100%;
+  	bottom: 0px;
+  	left: 0px;
+  }
+  input{
+    display: block;
+    margin : auto;
+    width: 130px;
+    height: 30px;
+  }
+  table{
+    display: inline;
+    position: absolute;
+    top: 8px;
+    left: 80px;
+  }
+  td{
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    width: 250px;
+    height: 30px;
+    border-radius: 3px;
+    position: relative;
+  }
+  #view{
+    position: absolute;
+    display: inline;
+    top: 3px;
+    margin:0;
+    padding:0;
+    left: 30px;
+    font-family: "Raleway";
+  }
+  #follow{
+    position: absolute;
+    display: inline;
+    top: 3px;
+    margin:0;
+    padding:0;
+    left: 30px;
+    font-family: "Raleway";
+  }
+  #title, #game{
+      text-align: left;
+      margin-left: 40px;
+      margin-top: -7px;
+  }
+  #info{
+      margin-top: 5px;
+  }
+</style>
+
+<img src="images/logo.png" class="images_logo" alt="PyrooTv">
+<table>
+  <tr>
+    <td><img src="images/user.png" alt="" class="images_user"><div id="view"></div></td>
+  </tr>
+  <tr>
+    <td><img src="images/heart.png" alt="" class="images_heart"><div id="follow"></div></td>
+  </tr>
+</table>
+<p id="info"></p>
+<p id="title"></p>
+<p id="game"></p>
+
+<footer>
+  <a href="https://www.twitch.tv/pyrootv" target="_blank"><img src="images/twitch.png" class="images_twitch" alt="twitter" title="Twitch"/></a>
+  <a href="https://www.twitter.com/pyrootv" target="_blank"><img src="images/twitter.png" class="images_twitter" alt="twitter" title="Twitter"/></a>
+</footer>
+<script src="update.js"></script>
+<script src="jquery.js"></script>
