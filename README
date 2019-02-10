@@ -1,3 +1,6 @@
 Simple extension to got a notification when a specific streamer is on live.
 
+You just have to change the following character : "***" by the name of the streamer.
+Change also the client id ("$$$") by your twitch client id.
+
 Version 1.2
